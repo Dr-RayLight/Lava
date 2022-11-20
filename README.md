@@ -74,12 +74,12 @@ lavaList.asArrayList(); // ArrayList<String>
 
 ```java
  Pair<String, Integer> p1 = Pair.of("a", 1);
-        Pair<String, Integer> p2 = Pair.of("b", 2);
-        Pair<String, Integer> p3 = Pair.of("c", 3);
+ Pair<String, Integer> p2 = Pair.of("b", 2);
+ Pair<String, Integer> p3 = Pair.of("c", 3);
 
-        Pairs<String, Integer> ps = Pairs.of(p1, p2, p3);
-        ps.swap(); // Swap all kv
-        ps.toKList(); // to K LavaList();
-        ps.toVList(); // to V LavaList();
+ Pairs<String, Integer> ps = Pairs.of(p1, p2, p3);
+ ps.swap(); // Swap all kv
+ ps.toKList(); // to K LavaList();
+ ps.toVList(); // to V LavaList();
 
 ```
